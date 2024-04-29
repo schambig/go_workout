@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	accountAge := 2.6
 
-	// truncate accountAge, use int() to do so
+	// truncate** accountAge, use int() to do so
 	accountAgeInt := int(accountAge)
 	// it should be the result of casting "accountAge" to an integer
 
@@ -36,4 +36,11 @@ Some types can be converted like this:
 	temperatureInt := int64(temperatureFloat)
 
 Casting a float to an integer in this way truncates the floating point portion
+ */
+ 
+/* 
+ **
+ To truncate something is to shorten it, or cut part of it off.
+ In computer science, the term is often used in reference to data types or variables,
+ such as floating point numbers and strings.
  */
