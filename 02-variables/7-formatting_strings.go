@@ -23,12 +23,12 @@ It is not as elegant as Python's f-strings, unfortunately.
 These following "formatting verbs" work with the formatting functions above:
 
 DEFAULT REPRESENTATION
-	The %v variant prints the Go syntax representation of a value, it's a nice default.
-		s := fmt.Sprintf("I am %v years old", 10)
-		// I am 10 years old
+The %v variant prints the Go syntax representation of a value, it's a nice default.
+	s := fmt.Sprintf("I am %v years old", 10)
+	// I am 10 years old
 
-		s := fmt.Sprintf("I am %v years old", "way too many")
-		// I am way too many years old
+	s := fmt.Sprintf("I am %v years old", "way too many")
+	// I am way too many years old
 
 If you want to print in a more specific way, you can use the following formatting verbs:
 
